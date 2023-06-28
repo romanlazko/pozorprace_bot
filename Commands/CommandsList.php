@@ -56,7 +56,6 @@ class CommandsList extends DefaultCommandsList
         ],
         'default'   => [
         ]
-        
     ];
 
     static public function getCommandsList(?string $auth)
