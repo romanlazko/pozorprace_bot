@@ -11,14 +11,13 @@ class Config
             'inline_data'       => [
                 'city'              => null,
                 'type'              => null,
-                'salary_type'         => null,
-                'education'          => null,
+                'salary_type'       => null,
+                'education'         => null,
                 'announcement_id'   => null,
             ],
             'brno'      => '@pozor_test',
             'prague'    => '@pozor_test',
             'admin_ids'         => [
-                
             ],
             'bot_username' => 'pozorprace_bot'
         ];
