@@ -18,8 +18,9 @@ class CommandsList extends DefaultCommandsList
             UserCommands\StartCommand::class,
             UserCommands\MenuCommand::class,
             UserCommands\NewAnnouncement::class,
-
+            
             UserCommands\AnnouncementType::class,
+
             //Propose work
             UserCommands\Propose\Propose::class,
             UserCommands\Propose\Offer::class,
@@ -44,7 +45,6 @@ class CommandsList extends DefaultCommandsList
             UserCommands\Propose\SaveAnnouncement::class,
             UserCommands\Propose\PublicAnnouncement::class,
             UserCommands\Propose\Published::class,
-            
 
             UserCommands\MyAnnouncements::class,
             UserCommands\RullesCommand::class,
@@ -55,7 +55,7 @@ class CommandsList extends DefaultCommandsList
         'supergroup' => [
         ],
         'default'   => [
-        ]
+        ],
     ];
 
     static public function getCommandsList(?string $auth)
